@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "submagic": {
+      "type": "http",
+      "url": "https://api.submagic.co/mcp"
+    }
+  }
+}

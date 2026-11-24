@@ -1,0 +1,17 @@
+{
+  "name": "content-system",
+  "displayName": "Reg's Content System",
+  "version": "1.0.0",
+  "description": "Reg's content system for business owners: video ideas from your own business, scripts in Reg's format and your voice, and reel editing through Submagic.",
+  "author": {
+    "name": "Reg's team"
+  },
+  "license": "Proprietary",
+  "keywords": [
+    "instagram",
+    "reels",
+    "scripts",
+    "content",
+    "video editing"
+  ]
+}

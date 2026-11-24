@@ -1,0 +1,17 @@
+{
+  "name": "reg-content",
+  "owner": {
+    "name": "Reg's team"
+  },
+  "metadata": {
+    "description": "Reg's content system for business owners."
+  },
+  "plugins": [
+    {
+      "name": "content-system",
+      "source": "./plugins/content-system",
+      "description": "Video ideas from your own business, scripts in Reg's format and your voice, and reel editing through Submagic.",
+      "version": "1.0.0"
+    }
+  ]
+}
