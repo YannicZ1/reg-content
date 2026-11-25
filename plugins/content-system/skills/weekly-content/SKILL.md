@@ -41,7 +41,7 @@ When all scripts are done, give this checklist, adjusted to where they said they
 
 ## Step 5: Editing
 
-Say: "When you have filmed, start a new chat, type 'edit my reel' and tell me which script it is.
+Say: "When you have filmed, start a new chat, type 'Edit my video' and tell me which script it is.
 I will send you an upload link. It works from your phone." Then use the edit-reel skill.
 
 ## Rules
