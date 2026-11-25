@@ -17,8 +17,8 @@ The plugin connects to Reg's Reel Editor server (`reel-editor` in `plugins/conte
 you upload your raw video through a link (works on a phone), Claude decides the edit from the transcript,
 the server renders the reel and checks it before you see it.
 
-Connect it once: open the plugin, go to its Connectors tab, click Connect next to Reel Editor and type the
-personal access code you got from the team. The connection then stays active in every chat.
+Connect it once: open the plugin, go to its Connectors tab and click Connect next to Reel Editor. A window
+opens for a moment and closes again, no password and no code. The connection then stays active in every chat.
 
 ## For Reg's team
 
