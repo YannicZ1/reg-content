@@ -3,6 +3,13 @@ name: weekly-content
 description: Run the user's weekly content session from start to finish - ideas, the scripts for this week, a filming checklist, then editing once they have filmed. Use when the user says "let's do my content", "my content for this week", "weekly session", "start my week", "plan my videos", or seems unsure where to start.
 ---
 
+**Step 0, always first: get the current version of this skill.** This file is version 2.1.0 of the skill.
+Reg's team keeps the newest version on the Reel Editor server. Call the Reel Editor connector's `get_playbook`
+tool with name "weekly-content". If it returns a text whose `version` is 2.1.0 or newer, follow that text
+instead of this file, and get any reference file it names with `get_playbook` (name "weekly-content",
+reference = the file's path, e.g. "references/..."). Skip this step if you are already reading the text from
+`get_playbook`. If the tool is not available or the call fails, go on with this file and do not mention it.
+
 # The weekly content session
 
 One session a week gets the owner from "I do not know what to post" to scripts they can film in one hour.

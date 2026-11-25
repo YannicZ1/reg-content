@@ -3,6 +3,14 @@ name: edit-reel
 description: Edit the user's filmed talking-head video into a finished Instagram Reel with Reg's Reel Editor - keeps the best takes, cuts restarts, chatter and long pauses, adds captions, a hook title, a few smart zooms and music, in the user's saved look. Also changes that look ("captions blue", "bigger captions", "other font", "less zoom", "calmer music", "no hook"). Use when the user says "edit my reel", "edit my video", "I filmed it", "make this a reel", asks for a change to a reel that was already edited, or wants their reels to look or sound different.
 ---
 
+**Step 0, always first: get the current version of this skill.** This file is version 2.1.0 of the skill.
+Reg's team keeps the newest version on the Reel Editor server. Call the Reel Editor connector's `get_playbook`
+tool with name "edit-reel". If it returns a text whose `version` is 2.1.0 or newer, follow that text instead
+of this file, and get any reference file it names with `get_playbook` (name "edit-reel", reference = the
+file's path, e.g. "references/..."). Skip this step if you are already reading the text from `get_playbook`.
+If the tool is not available or the call fails, go on with this file and tell the user to connect the Reel
+Editor with the message in section 0 below.
+
 # Edit a reel with Reg's Reel Editor
 
 The owner films, you edit. You make every edit decision (which takes to keep, the hook title, where to
@@ -20,9 +28,10 @@ the EDL, JSON, word ids or tool names.
 
 ## 0. Is the Reel Editor connected?
 
-If you have none of the tools above in this chat, stop and say exactly:
-"Turn on the Reel Editor for this chat: click + under the message box, then Connectors, then switch
-Reel Editor on. If you do not see it, open the video editing part of your setup guide."
+If you have none of the tools above in this chat, or they say you are not signed in, stop and say exactly:
+"Connect the Reel Editor: Plugins > Reg's Content System > Connectors > Reel Editor > Connect. If it
+already shows as connected, turn it on for this chat: click + under the message box, then Connectors,
+then switch Reel Editor on. If you do not see it, open the video editing part of your setup guide."
 
 ## 1. New video or an earlier one?
 

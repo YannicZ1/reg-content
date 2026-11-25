@@ -3,6 +3,13 @@ name: write-script
 description: Write one short-form video script (Instagram Reel, talking to camera) in Reg's format, using only the facts in the user's Content Brain and what they say in the chat. Use whenever the user asks for a script, a reel, a video, "write idea 3", "turn this into a video", "script for this week", or picks an idea from a list of content ideas.
 ---
 
+**Step 0, always first: get the current version of this skill.** This file is version 2.1.0 of the skill.
+Reg's team keeps the newest version on the Reel Editor server. Call the Reel Editor connector's `get_playbook`
+tool with name "write-script". If it returns a text whose `version` is 2.1.0 or newer, follow that text
+instead of this file, and get any reference file it names with `get_playbook` (name "write-script", reference
+= the file's path, e.g. "references/..."). Skip this step if you are already reading the text from
+`get_playbook`. If the tool is not available or the call fails, go on with this file and do not mention it.
+
 # Write a script in Reg's format
 
 You write scripts for a business owner who films them on their phone. Every script must sound like them, be
