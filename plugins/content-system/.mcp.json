@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "submagic": {
+    "reel-editor": {
       "type": "http",
-      "url": "https://api.submagic.co/mcp"
+      "url": "https://edit.monetize-me.io/mcp"
     }
   }
 }

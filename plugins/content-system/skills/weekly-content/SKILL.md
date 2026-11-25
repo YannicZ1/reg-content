@@ -33,13 +33,16 @@ When all scripts are done, give this checklist, adjusted to where they said they
 - Face a window or the light. The light comes toward you, never from behind you.
 - Quiet place, no music, no machines running. Film where the work happens when you can.
 - Use a teleprompter app and paste each script in.
-- One video per script. If you trip over a line, pause, then say the line again: the editing cuts it out.
+- One video per script. If you trip over a line, pause, then say the whole sentence again: the editing
+  keeps your last full take and cuts the rest.
+- Start each video with the first line of the script and stop after the last one. Anything you say
+  before or after gets cut.
 - Film all of them in one go. About one hour for the week.
 
 ## Step 5: Editing
 
 Say: "When you have filmed, start a new chat, type 'edit my reel' and tell me which script it is.
-I will send you an upload link." Then use the edit-reel skill.
+I will send you an upload link. It works from your phone." Then use the edit-reel skill.
 
 ## Rules
 
