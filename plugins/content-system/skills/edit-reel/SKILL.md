@@ -73,7 +73,7 @@ Run the self-check at the end of the guide before you render.
 ## 6. Render
 
 Call `start_render(upload_id, edl, title)` (title: a few words). If it is rejected, the error says what is
-wrong: fix the EDL and call it again. Tell the user once: "Your reel is rendering. It takes 1 to 5 minutes."
+wrong: fix the EDL and call it again. Tell the user once: "Your reel is rendering. It takes about 5 minutes."
 
 Then call `get_render(job_id)` until `status` is `done` or `failed`, waiting about 20 to 30 s between
 calls (same rule as step 4: `sleep 25` if you can run code, otherwise at most 10 calls, then ask them to

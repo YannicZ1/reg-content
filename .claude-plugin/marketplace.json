@@ -11,7 +11,7 @@
       "name": "content-system",
       "source": "./plugins/content-system",
       "description": "Video ideas from your own business, scripts in Reg's format and your voice, and reel editing with Reg's Reel Editor.",
-      "version": "2.0.0"
+      "version": "2.0.1"
     }
   ]
 }
